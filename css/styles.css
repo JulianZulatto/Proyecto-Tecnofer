@@ -1,0 +1,28 @@
+h1{
+    text-align: center;
+}
+
+.ia{
+    text-decoration: overline;
+}
+p{
+    background-color: rgb(77, 77, 77);
+    color: yellow;
+}
+.asesor{
+    text-align: center;
+    text-decoration: underline;
+}
+@font-face {
+    font-family: "mavela";
+    src: url(../Resources/Mavela-Regular.otf);
+}
+
+.asesor{
+    font-family: "mavela";
+}
+
+.contacto{
+    text-align: center;
+    background-color: rgb(28, 240, 0);
+}
