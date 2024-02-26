@@ -3,9 +3,14 @@
     margin: 0;
     padding: 0;
 }
-
+.body{
+    padding-left: 100px;
+    padding-right: 100px;
+    background-image: url(../Resources/fondo-textura-hierro.avif);
+}
 .navbar{
     background-color: black;
+    padding: 0;
 }
 
 .navbar ul li{
@@ -14,9 +19,15 @@
 .ia{
     text-decoration: overline;
 }
-p{
-    background-color: rgb(77, 77, 77);
+.titulo1{
     color: yellow;
+}
+p{
+    background-color: rgb(82, 82, 82);
+    color: yellow;
+}
+.vision{
+    margin: 0;
 }
 .asesor{
     text-align: center;
