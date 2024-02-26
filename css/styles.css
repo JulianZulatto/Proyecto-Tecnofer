@@ -3,6 +3,13 @@
     margin: 0;
     padding: 0;
 }
+
+h2{
+    color: yellow;
+}
+h3{
+    color: yellow;
+}
 .body{
     padding-left: 100px;
     padding-right: 100px;
@@ -32,6 +39,7 @@ p{
 .asesor{
     text-align: center;
     text-decoration: underline;
+    margin: 0;
 }
 @font-face {
     font-family: "mavela";
@@ -40,11 +48,25 @@ p{
 
 .asesor{
     font-family: "mavela";
+    padding: 0;
+    background-color: rgb(95, 95, 95);
+    color: yellow;
+    width: 1237px;
+    text-align: center;
 }
 
-.contacto{
+.contacto-promos{
     text-align: center;
-    background-color: rgb(28, 240, 0);
+    background-color: rgb(95, 95, 95);
+    padding: 0;
+    margin: 0;
+    width: 1237px;
+    align-items: center;
+}
+.contacto-promos li a{
+    color: yellow;
+    font-size: larger;
+    font-weight: bold;
 }
 footer{
     display: flex;
@@ -58,7 +80,10 @@ footer{
     display: flex;
     align-items: center;
 }
-
+.avances{
+    padding: 0;
+    margin: 0;
+}
 .icono-footer{
     height: 100px;
 }
@@ -71,7 +96,30 @@ footer{
     align-items: center;
     flex-direction: column;
 }
+.form{
+    color: yellow;
+    font-weight: 800;
+}
 
+.img-promo{
+    width: 300px;
+}
+.accordion{
+    padding: 5px;
+}
+.acordion1{
+    background-color: rgb(95, 95, 95);
+}
+.acordion2{
+    max-width: 100%;
+    height: auto;
+}
+.comunicacion{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: auto;
+}
 @media (max-width: 780px){
     .icono-footer{
         height: 50px;
@@ -87,5 +135,10 @@ footer{
 @media (max-width: 937px){
     .contacto{
         padding: 0px;
+    }
+}
+@media (max-width: 1440px){
+    .comunicacion{
+        overflow: scroll;
     }
 }
