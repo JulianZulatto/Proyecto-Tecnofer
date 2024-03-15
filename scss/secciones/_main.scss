@@ -1,0 +1,83 @@
+main {
+    padding-left: 100px;
+    padding-right: 100px;
+    background-image: url(../Resources/fondo-textura-hierro.avif);
+
+    h1 {
+        text-align: center;
+        background-color: white;
+        color: black;
+    }
+
+    h2 {
+        color: yellow;
+    }
+
+    h3 {
+        color: yellow;
+    }
+    section{
+        color: yellow;
+    }
+    p{
+        background-color: rgb(82, 82, 82);
+        color: yellow;
+    }
+}
+
+.vision{
+    margin: 0;
+}
+
+.asesor{
+    text-decoration: underline;
+    margin: 0;
+    font-family: "mavela";
+    padding: 0;
+    background-color: rgb(95, 95, 95);
+    color: yellow;
+    width: 1237px;
+    text-align: center;
+}
+@font-face {
+    font-family: "mavela";
+    src: url(../Resources/Mavela-Regular.otf);
+}
+
+.contacto-promos{
+    text-align: center;
+    background-color: rgb(95, 95, 95);
+    padding: 0;
+    margin: 0;
+    width: 1237px;
+    align-items: center;
+    li{
+        a{
+            color: yellow;
+            font-size: larger;
+            font-weight: bold;
+        }
+    }
+}
+
+.avances{
+    padding: 0;
+    margin: 0;
+}
+.form{
+    color: yellow;
+    font-weight: 800;
+}
+.img-promo{
+    width: 300px;
+}
+.accordion{
+    padding: 5px;
+}
+.acordion1{
+    background-color: rgb(95, 95, 95);
+}
+.acordion2{
+    max-width: 100%;
+    height: auto;
+}

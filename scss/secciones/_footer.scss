@@ -1,0 +1,21 @@
+footer{
+    display: flex;
+    height: 200px;
+    background-color: black;
+    color: yellow;
+    align-items: center;
+    justify-content: center;
+}
+
+.icono-footer{
+    height: 100px;
+}
+.contacto{
+    display: flex;
+    background-color: black;
+    color: yellow;
+    font-size: large;
+    padding: 50px;
+    align-items: center;
+    flex-direction: column;
+}

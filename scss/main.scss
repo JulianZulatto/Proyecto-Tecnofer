@@ -1,119 +1,12 @@
+// variables, reseteos y luego secciones
+@import './utilidades/reseteo';
 
-* {
-    margin: 0;
-    padding: 0;
-}
+@import './secciones/header';
+@import './secciones/main';
+@import './secciones/footer';
 
-h2{
-    color: yellow;
-}
-h3{
-    color: yellow;
-}
-.body{
-    padding-left: 100px;
-    padding-right: 100px;
-    background-image: url(../Resources/fondo-textura-hierro.avif);
-}
-.navbar{
-    background-color: black;
-    padding: 0;
-}
 
-.navbar ul li{
-    padding: 10px;
-}
-.ia{
-    text-decoration: overline;
-}
-.titulo1{
-    color: yellow;
-}
-p{
-    background-color: rgb(82, 82, 82);
-    color: yellow;
-}
-.vision{
-    margin: 0;
-}
-.asesor{
-    text-align: center;
-    text-decoration: underline;
-    margin: 0;
-}
-@font-face {
-    font-family: "mavela";
-    src: url(../Resources/Mavela-Regular.otf);
-}
 
-.asesor{
-    font-family: "mavela";
-    padding: 0;
-    background-color: rgb(95, 95, 95);
-    color: yellow;
-    width: 1237px;
-    text-align: center;
-}
-
-.contacto-promos{
-    text-align: center;
-    background-color: rgb(95, 95, 95);
-    padding: 0;
-    margin: 0;
-    width: 1237px;
-    align-items: center;
-}
-.contacto-promos li a{
-    color: yellow;
-    font-size: larger;
-    font-weight: bold;
-}
-footer{
-    display: flex;
-    height: 200px;
-    background-color: black;
-    color: yellow;
-    align-items: center;
-    justify-content: center;
-}
-.redes-sociales{
-    display: flex;
-    align-items: center;
-}
-.avances{
-    padding: 0;
-    margin: 0;
-}
-.icono-footer{
-    height: 100px;
-}
-.contacto{
-    display: flex;
-    background-color: black;
-    color: yellow;
-    font-size: large;
-    padding: 50px;
-    align-items: center;
-    flex-direction: column;
-}
-.form{
-    color: yellow;
-    font-weight: 800;
-}
-
-.img-promo{
-    width: 300px;
-}
-.accordion{
-    padding: 5px;
-}
-.acordion1{
-    background-color: rgb(95, 95, 95);
-}
-.acordion2{
-    max-width: 100%;
-    height: auto;
-}
 .comunicacion{
     display: flex;
     flex-direction: column;
