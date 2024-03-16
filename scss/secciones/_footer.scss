@@ -19,3 +19,21 @@ footer{
     align-items: center;
     flex-direction: column;
 }
+
+@media (max-width: 780px){
+    .icono-footer{
+        height: 50px;
+        width: 50px;
+    }
+    .redes-sociales{
+        flex-direction: column;
+    }
+    footer{
+        justify-content: center;
+    }
+}
+@media (max-width: 937px){
+    .contacto{
+        padding: 0px;
+    }
+}
