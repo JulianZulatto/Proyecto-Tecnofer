@@ -67,10 +67,7 @@ main {
     margin: 0;
 }
 
-.form {
-    color: yellow;
-    font-weight: 800;
-}
+
 
 .img-promo {
     width: 300px;
@@ -149,6 +146,7 @@ main {
         }
     }
 }
+
 // PROMOCIONES
 .metodos-de-pagos {
     display: flex;
@@ -176,7 +174,7 @@ main {
     grid-template-areas:
         "promo-1 promo-2"
         "promo-3 promo-4";
-        justify-items: center;
+    justify-items: center;
 
     section {
         display: flex;
@@ -197,7 +195,8 @@ main {
             color: yellow;
             background-image: linear-gradient(rgb(61, 61, 61), rgb(168, 168, 168));
         }
-        p{
+
+        p {
             color: yellow;
             background-image: linear-gradient(rgb(61, 61, 61), rgb(168, 168, 168));
             width: 600px;
@@ -233,7 +232,7 @@ main {
 }
 
 // IDEAS E INNOVACION
-.bloque-1-ideas{
+.bloque-1-ideas {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
@@ -241,29 +240,34 @@ main {
         "bloque-1 bloque-2"
         "bloque-3 bloque-4"
         "bloque-5 bloque-6";
-        justify-items: center;
-    section{
+    justify-items: center;
+
+    section {
         display: flex;
         flex-direction: column;
         align-items: center;
         padding: 10px;
         margin: 25px;
         height: 600px;
-        h2{
+
+        h2 {
             color: yellow;
             background-image: linear-gradient(rgb(61, 61, 61), rgb(168, 168, 168));
             text-align: center;
             width: 500px;
         }
-        img{
+
+        img {
             width: 500px;
             height: 350px;
         }
-        iframe{
+
+        iframe {
             width: 500px;
             height: 350px;
         }
-        p{
+
+        p {
             color: yellow;
             background-image: linear-gradient(rgb(61, 61, 61), rgb(168, 168, 168));
             text-align: center;
@@ -272,6 +276,7 @@ main {
         }
     }
 }
+
 .bloque-1 {
     grid-area: bloque-1;
 }
@@ -287,12 +292,15 @@ main {
 .bloque-4 {
     grid-area: bloque-4;
 }
+
 .bloque-5 {
     grid-area: bloque-5;
 }
+
 .bloque-6 {
     grid-area: bloque-6;
 }
+
 @media (max-width: 1210px) {
     .bloque-1-ideas {
         display: flex;
@@ -302,3 +310,86 @@ main {
     }
 }
 
+// CATALOGO
+.catalogo {
+    ul {
+        display: flex;
+        flex-direction: column;
+        list-style: none;
+        background-image: linear-gradient(rgb(61, 61, 61), rgb(168, 168, 168));
+
+        li {
+            color: yellow;
+        }
+    }
+}
+
+.h2-catalogo {
+    background-image: linear-gradient(rgb(61, 61, 61), rgb(168, 168, 168));
+    text-align: center;
+}
+
+.form {
+    color: yellow;
+    font-weight: 800;
+}
+
+.form-catalogo {
+    background-image: linear-gradient(rgb(61, 61, 61), rgb(168, 168, 168));
+    text-align: center;
+}
+
+// CONTACTO
+.contact {
+    background-image: linear-gradient(rgb(61, 61, 61), rgb(168, 168, 168));
+    display: flex;
+    align-items: center;
+
+    .contacto-1 {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-auto-columns: 1fr;
+        justify-items: center;
+        align-items: center;
+        grid-template-areas:
+            "art-1 art-2"
+            "art-3 art-4"
+            "art-5 art-5";
+    }
+    h2 {
+        text-align: center;
+    }
+    }
+    .input {
+        height: 200px;
+        overflow: auto;
+    }
+
+
+.contacto-2 {
+    width: 30%;
+    p {
+        color: yellow;
+    }
+}
+
+.art-1 {
+    grid-area: art-1;
+}
+
+.art-2 {
+    grid-area: art-2;
+}
+
+.art-3 {
+    grid-area: art-3;
+}
+
+.art-4 {
+    grid-area: art-4;
+}
+
+.art-5 {
+    grid-area: art-5;
+}
