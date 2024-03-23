@@ -254,16 +254,16 @@ main {
             color: yellow;
             background-image: linear-gradient(rgb(61, 61, 61), rgb(168, 168, 168));
             text-align: center;
-            width: 500px;
+            width: 100%;
         }
 
         img {
-            width: 500px;
+            width: 100%;
             height: 350px;
         }
 
         iframe {
-            width: 500px;
+            width: 100%;
             height: 350px;
         }
 
@@ -271,7 +271,7 @@ main {
             color: yellow;
             background-image: linear-gradient(rgb(61, 61, 61), rgb(168, 168, 168));
             text-align: center;
-            width: 500px;
+            width: 100%;
             overflow: scroll;
         }
     }
