@@ -26,11 +26,6 @@ main {
   main h4 {
     color: yellow; }
 
-@media (max-width: 993px) {
-  main {
-    padding-left: 0px;
-    padding-right: 0px; } }
-
 .vision {
   margin: 0; }
 
